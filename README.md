@@ -2,6 +2,7 @@
 
 <h2>testvagrant</h2>
 This directory contains test automation suite demo project for APIs listed at https://openweathermap.org/current
+and the UI with some test cases for https://www.accuweather.com/
 
 <h2>How to run automation suite</h2>
 <p>
