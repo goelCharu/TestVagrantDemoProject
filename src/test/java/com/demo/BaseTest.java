@@ -54,6 +54,10 @@ public class BaseTest {
         }else if (browserName.equalsIgnoreCase( "firefox")){
             System.setProperty("webdriver.gecko.driver", "drivers" + File.separator + "drivers" + File.separator + "firefoxdriver");
             driver = new FirefoxDriver();
+        }else {
+            System.out.println("Please select a appropriate driver !!!");
+            System.exit(0);
+
         }
 
     }
