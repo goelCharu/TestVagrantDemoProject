@@ -8,7 +8,7 @@ This directory contains test automation suite demo project for APIs listed at ht
 <strong>Pre-requisite</strong>
 <ul>
 <li>Any IDE, used IntelliJ</li>
-<li>Java 15</li>
+<li>Java 11</li>
 </ul>
 
 Once you install IntelliJ(or any other IDE of your choice), start it. On startup go to
@@ -27,7 +27,7 @@ Once you install IntelliJ(or any other IDE of your choice), start it. On startup
 <h2>How to run this suite ?</h2>
 Right click on testng.xml file and choose "Run testng.xml and provide the browser name like firefox or chrome , default is chrome".
 
-**NOTE**: drivers directory in cloned code hold the .exe for chrome and firefox
+**NOTE**: create drivers directory in cloned code and place the .exe for chrome and firefox. Currey GIT does not allow to push exe file
 
 <h2>What to expect once tests are executed ?</h2>
 Three tests would run. One would fail and other two will pass.
