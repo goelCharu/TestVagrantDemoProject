@@ -9,6 +9,7 @@ This directory contains test automation suite demo project for APIs listed at ht
 <ul>
 <li>Any IDE, used IntelliJ</li>
 <li>Java 11</li>
+<li>Maven</li>
 </ul>
 
 Once you install IntelliJ(or any other IDE of your choice), start it. On startup go to
@@ -20,6 +21,7 @@ Once you install IntelliJ(or any other IDE of your choice), start it. On startup
 <li>Choose open as project on Pop up</li>
 <li>Allow some time for IDE to fetch dependencies</li>
 <li>Try building code to check if everything works fine from Menu->Build->BuildProject</li>
+<li>mvn clean install</li>  
 </ul>
 
 </p>
@@ -39,3 +41,4 @@ Three tests would run. One would fail and other two will pass.
 </ul>
 
 **DEBUG:**
+Add the drivers directory and screennshots directory in base path
