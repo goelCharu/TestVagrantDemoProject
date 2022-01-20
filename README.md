@@ -27,7 +27,7 @@ Once you install IntelliJ(or any other IDE of your choice), start it. On startup
 <h2>How to run this suite ?</h2>
 Right click on testng.xml file and choose "Run testng.xml and provide the browser name like firefox or chrome , default is chrome".
 
-**NOTE**: create drivers directory in cloned code and place the .exe for chrome and firefox. Currey GIT does ot allow to push exe file
+**NOTE**: create drivers directory in cloned code and place the .exe for chrome and firefox. Currey GIT does not allow to push exe file
 
 <h2>What to expect once tests are executed ?</h2>
 Three tests would run. One would fail and other two will pass.
