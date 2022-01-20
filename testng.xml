@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <test name="TestVagrant_Demo">
+        <parameter name="browserName" value="Chrome" />
+        <classes>
+            <class name="com.demo.TempTest"/>
+        </classes>
+        <listeners>
+            <listener class-name="com.demo.utils.SuiteListener"></listener>
+        </listeners>
+    </test>
+</suite>
