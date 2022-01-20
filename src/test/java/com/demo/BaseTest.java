@@ -16,15 +16,13 @@ public class BaseTest {
 
     public static WebDriver driver;
 
-
-    @BeforeTest
-    public void beforeTestMethod()
-    {
-    }
-
+    /**
+     *
+     * @param browserName
+     */
     @Parameters("browserName")
     @BeforeMethod
-    public void beforeMethodMethod(String browserName)
+    public void beforeTestStart(String browserName)
     {
      setupDriver(browserName);
      driver.manage().window().maximize();
@@ -34,13 +32,8 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void afterMethodMethod(){
+    public void close(){
         driver.quit();
-    }
-
-    @AfterTest
-    public void afterTestMethod(){
-
     }
 
     /**
@@ -57,7 +50,6 @@ public class BaseTest {
         }else {
             System.out.println("Please select a appropriate driver !!!");
             System.exit(0);
-
         }
 
     }
