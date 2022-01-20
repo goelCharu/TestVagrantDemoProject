@@ -35,7 +35,7 @@ Right click on testng.xml file and choose "Run testng.xml and provide the browse
 Three tests would run. One would fail and other two will pass.
 
 <ul>
-<li><strong>Failed Test case</strong> - verifyWeatherInformationForCityOutOfRange. Throws custom exception</li>
+<li><strong>Failed Test case</strong> - verifyWeatherInformationForCityOutOfRange. Throws custom exception and it will take screenshots of failed cases in screenshots directory</li>
 <li><strong>Passed Test case</strong> - verifyWeatherInformationForCity</li>
 <li><strong>Passed Test case</strong> - verifyWeatherInformationForCityWithInRange</li>
 </ul>
