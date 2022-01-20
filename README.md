@@ -8,7 +8,7 @@ This directory contains test automation suite demo project for APIs listed at ht
 <strong>Pre-requisite</strong>
 <ul>
 <li>Any IDE, used IntelliJ</li>
-<li>Java 15</li>
+<li>Java 11</li>
 </ul>
 
 Once you install IntelliJ(or any other IDE of your choice), start it. On startup go to
